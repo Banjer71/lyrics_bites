@@ -19,7 +19,7 @@ class SearchBar extends React.Component {
 		fetch(
 			`${url}/track.search?q_artist=${this.state
 				.trackTitle}&page_size=5&page=1&f_has_lyrics=1&s_track_rating=desc&album.get?&apikey=${process.env
-				.REACT_APP_KEY}`
+				.REACT_APP_API_KEY}`
 		)
 			.then((response) => response.json())
 			.then((data) => {

@@ -11,7 +11,7 @@ class ArtistCard extends React.Component {
 	getLyrics = (e) => {
 		e.preventDefault();
 		const url = 'https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1';
-		fetch(`${url}/track.lyrics.get?track_id=${this.props.track.track_id}&apikey=${process.env.REACT_APP_KEY}`)
+		fetch(`${url}/track.lyrics.get?track_id=${this.props.track.track_id}&apikey=${process.env.REACT_APP_API_KEY}`)
 			.then((response) => response.json())
 			.then((data) => {
 				console.log(data.message.body.lyrics);
