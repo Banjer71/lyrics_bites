@@ -2,46 +2,43 @@
 @import url('./components/artistCard.css');
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 h1 {
-    text-align: center;
-    margin: 25px;
-    font-family: "Luckiest Guy", cursive;
-    color: red;
-    letter-spacing: 3px;
+	text-align: center;
+	margin: 25px;
+	font-family: "Luckiest Guy", cursive;
+	color: red;
+	letter-spacing: 3px;
 }
 
 h3 {
-    font-family: "Luckiest Guy", cursive;
-    text-align: center;
-    letter-spacing: 1px;
-    color: rgb(67, 131, 214);
-    margin-bottom: 20px;
+	font-family: "Luckiest Guy", cursive;
+	text-align: center;
+	letter-spacing: 1px;
+	color: rgb(67, 131, 214);
+	margin-bottom: 20px;
 }
 
-
-
 pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-    text-align: center;
-    font-family: monospace;
- }
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	text-align: center;
+	font-family: monospace;
+}
