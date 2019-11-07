@@ -1,22 +1,47 @@
-.App {
-  text-align: center;
+@import url('./components/searchBar.css');
+@import url('./components/artistCard.css');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    text-align: center;
+    margin: 25px;
+    font-family: "Luckiest Guy", cursive;
+    color: red;
+    letter-spacing: 3px;
 }
 
-.App-link {
-  color: #09d3ac;
+h3 {
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(67, 131, 214);
+    margin-bottom: 20px;
 }
+
+
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: monospace;
+ }

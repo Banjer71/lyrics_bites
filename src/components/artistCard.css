@@ -1,0 +1,17 @@
+.card {
+	margin: 20px auto 50px auto;
+}
+
+.btn-lyrics {
+	width: 150px;
+	margin: 5px auto 10px auto;
+	display: block;
+}
+
+@media (min-width: 780px) {
+	.btn-lyrics {
+		width: 150px;
+		margin: 5px auto 10px auto;
+		display: block;
+	}
+}
