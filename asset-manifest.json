@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.ddbe7bc9.chunk.css",
-    "main.js": "/my-app/static/js/main.ef82621a.chunk.js",
-    "main.js.map": "/my-app/static/js/main.ef82621a.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.c342a576.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.c342a576.js.map",
-    "static/js/2.db769c3c.chunk.js": "/my-app/static/js/2.db769c3c.chunk.js",
-    "static/js/2.db769c3c.chunk.js.map": "/my-app/static/js/2.db769c3c.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.6497dc94fb1f307354110dcf319f377d.js": "/my-app/precache-manifest.6497dc94fb1f307354110dcf319f377d.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.ddbe7bc9.chunk.css.map": "/my-app/static/css/main.ddbe7bc9.chunk.css.map"
+    "main.css": "/lyrics_bites/static/css/main.ddbe7bc9.chunk.css",
+    "main.js": "/lyrics_bites/static/js/main.ef82621a.chunk.js",
+    "main.js.map": "/lyrics_bites/static/js/main.ef82621a.chunk.js.map",
+    "runtime-main.js": "/lyrics_bites/static/js/runtime-main.d4397d91.js",
+    "runtime-main.js.map": "/lyrics_bites/static/js/runtime-main.d4397d91.js.map",
+    "static/js/2.db769c3c.chunk.js": "/lyrics_bites/static/js/2.db769c3c.chunk.js",
+    "static/js/2.db769c3c.chunk.js.map": "/lyrics_bites/static/js/2.db769c3c.chunk.js.map",
+    "index.html": "/lyrics_bites/index.html",
+    "precache-manifest.0ac0cf92df7ab0cdcd85b568ed6f9c81.js": "/lyrics_bites/precache-manifest.0ac0cf92df7ab0cdcd85b568ed6f9c81.js",
+    "service-worker.js": "/lyrics_bites/service-worker.js",
+    "static/css/main.ddbe7bc9.chunk.css.map": "/lyrics_bites/static/css/main.ddbe7bc9.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c342a576.js",
+    "static/js/runtime-main.d4397d91.js",
     "static/js/2.db769c3c.chunk.js",
     "static/css/main.ddbe7bc9.chunk.css",
     "static/js/main.ef82621a.chunk.js"
