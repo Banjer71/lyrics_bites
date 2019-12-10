@@ -8,9 +8,8 @@ const App = () => {
 		<div>
 			<div className="container">
 				<h1 className="header-title">Lyrics Bites</h1>
-                <h3>Learn your favourite song one bite at a time</h3>
+				<h3>Learn your favourite song one bite at a time</h3>
 				<SearchBar />
-                
 			</div>
 		</div>
 	);
