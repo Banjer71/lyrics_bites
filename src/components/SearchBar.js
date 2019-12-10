@@ -6,26 +6,22 @@ class SearchBar extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			track_list: [],
-			value: '',
-			trackTitle: []
+			trackTitle: '',
+			value: 'q_artist',
+			valore: 'q_artist'
 		};
 	}
 
 	getTrack = (e) => {
 		e.preventDefault();
-		const url = 'https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1';
+		const url = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?${this.state
+			.valore}=${this.state.trackTitle}&page_size=10&page=1&f_has_lyrics=1&s_track_rating=desc&apikey=${process
+			.env.REACT_APP_API_KEY}`;
 		this.setState({ isLoading: true });
-		fetch(
-			`${url}/track.search?q_artist=${this.state
-				.trackTitle}&page_size=5&page=1&f_has_lyrics=1&s_track_rating=desc&album.get?&apikey=${process.env
-				.REACT_APP_API_KEY}`
-		)
+		fetch(url)
 			.then((response) => response.json())
 			.then((data) => {
-				console.log(data);
 				const tracks = data.message.body.track_list;
-				console.log(tracks);
 				this.setState({
 					track_list: tracks,
 					isLoading: false
@@ -50,19 +46,16 @@ class SearchBar extends React.Component {
 				valore: newValue,
 				value: newValue
 			});
-			console.log(newValue);
 		} else if (newValue === 'q_track') {
 			this.setState({
 				valore: newValue,
 				value: newValue
 			});
-			console.log(newValue);
 		} else {
 			this.setState({
 				valore: newValue,
 				value: newValue
 			});
-			console.log(newValue);
 		}
 	};
 
@@ -91,12 +84,11 @@ class SearchBar extends React.Component {
 
 				{this.state.isLoading ? (
 					<Loader />
-				) : this.state.track_list ? (
-					this.state.track_list.map((item) => {
+				) : (
+					this.state.track_list && 
+					this.state.track_list.map(item => {
 						return <ArtistCard key={item.track.track_id} track={item.track} />;
 					})
-				) : (
-					<Loader />
 				)}
 			</div>
 		);
