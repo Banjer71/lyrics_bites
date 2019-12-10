@@ -85,8 +85,8 @@ class SearchBar extends React.Component {
 				{this.state.isLoading ? (
 					<Loader />
 				) : (
-					this.state.track_list && 
-					this.state.track_list.map(item => {
+					this.state.track_list &&
+					this.state.track_list.map((item) => {
 						return <ArtistCard key={item.track.track_id} track={item.track} />;
 					})
 				)}
