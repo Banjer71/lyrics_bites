@@ -2,7 +2,7 @@
 
 Learn your favourite song one bite at a time
 
-<img src='lyrics_bites.JPG' width="200">
+<img src='lyrics_bites.JPG' width="400">
 
 ### `The inspiration`
 
