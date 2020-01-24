@@ -17,5 +17,5 @@ maybe every two days or more?
 
 Said that, I decided to build first the front-end side to mastering my React skills HTML/CSS<br />
 and then I would like to add a backend later<br />
-The idea is to query an API to retrieve the song lyrics and than give the possibility to the user to chunk the song<br />
+The idea is to query an API to retrieve the song lyrics and then give the possibility to the user to chunk the song<br />
 Then set it to receive one verse everyday in his email address.
